@@ -1,5 +1,4 @@
-
-public public class Receita extends Transacao {
+ public class Receita extends Transacao {
     public Receita(String descricao, double valor) {
         super(descricao, valor);
     }
@@ -8,6 +7,4 @@ public public class Receita extends Transacao {
     public String getTipo() {
         return "Receita";
     }
-} {
-    
-}
+} 
